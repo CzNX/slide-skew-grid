@@ -1,0 +1,167 @@
+/* utilities */
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 10px;
+  color: #333;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  cursor: pointer;
+  background: var(--primary_color);
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.bg_primary,
+.btn_primary {
+  background: var(--primary_color);
+  color: #fff;
+}
+.btn_dark,
+.bg_dark {
+  background: var(--dark_color);
+  color: #fff;
+}
+
+.bg_primary a,
+.btn_primary a,
+.btn_dark a,
+.bg_dark a,
+.btn_light a,
+.bg_light a {
+  color: #fff;
+}
+.btn_light,
+.bg_light {
+  background: var(--light_color);
+  color: #000;
+}
+
+.btn:hover {
+  transform: scale(0.98);
+}
+
+.btn_outline {
+  background: transparent;
+  border: 1px #fff solid;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid_3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.text_center {
+  text-align: center;
+}
+
+/* text sizes */
+.lead {
+  font-size: 20px;
+}
+.sm {
+  font-size: 1rem;
+}
+.md {
+  font-size: 2rem;
+}
+
+.lg {
+  font-size: 3rem;
+}
+
+.my_1 {
+  margin: 1rem 0;
+}
+.my_2 {
+  margin: 1.5rem 0;
+}
+.my_3 {
+  margin: 2rem 0;
+}
+.my_4 {
+  margin: 3rem 0;
+}
+.my_5 {
+  margin: 4rem 0;
+}
+
+.py_1 {
+  padding: 1rem 0;
+}
+.py_2 {
+  padding: 1.5rem 0;
+}
+.py_3 {
+  padding: 2rem 0;
+}
+.py_4 {
+  padding: 3rem 0;
+}
+
+.py_5 {
+  padding: 4rem 0;
+}
+
+.m_1 {
+  margin: 1rem;
+}
+.m_2 {
+  margin: 1.5rem;
+}
+.m_3 {
+  margin: 2rem;
+}
+.m_4 {
+  margin: 3rem;
+}
+
+.m_5 {
+  margin: 4rem;
+}
+
+.p_1 {
+  padding: 1rem;
+}
+.p_2 {
+  padding: 1.5rem;
+}
+.p_3 {
+  padding: 2rem;
+}
+.p_4 {
+  padding: 3rem;
+}
+
+.p_5 {
+  padding: 4rem;
+}
